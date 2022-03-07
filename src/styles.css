@@ -34,17 +34,20 @@ h1 {
   margin-top: 50px;
 }
 
-button {
+.container button {
   height: 100px;
   width: 100px;
+  margin-top: 10px;
   margin-right: 40px;
   font-size: 2vw;
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   border-radius: 10% 10% 10% 10%;
+  border-color: rgb(136, 1, 189);
+  background-color: rgb(232, 224, 243);
 }
 
 .content {
@@ -54,10 +57,11 @@ button {
   flex-direction: column;
 
   margin-top: 70px;
-  height: 35vw;
+  height: 50vw;
   width: 40vw;
 
   background-color: rgb(18, 65, 196);
+  border: 5px solid purple;
 }
 
 .content h3 {
@@ -67,4 +71,5 @@ button {
 .content img {
   margin-bottom: 40px;
   height: 20vw;
+  border-radius: 10% 10% 10% 10%;
 }
